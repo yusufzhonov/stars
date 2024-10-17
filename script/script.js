@@ -5,7 +5,12 @@ for (let i = 1; i <= 6; i++) {
   a += '*';
 };
 
-for (let i = 5; i >= 0; i--) {
-  a = a.substring(0, a.length - 1);
-  console.log(a);
+let b = '*';
+
+for (let i = 6; i >= 1; i--) {
+  b = '';
+  for (let j = 1; j <= i; j++) {
+    b += "*"; 
+  }
+  console.log(b); 
 };
